@@ -43,7 +43,7 @@ section nav a:hover{
     background-color: white;
     color: brown;
 }
-.col-3,.col-12,.col-6{
+.col-3,.col-12,.col-6,.col-4{
     width: 100%;
     padding: 10px;
 }
@@ -62,6 +62,9 @@ section nav a:hover{
 .align-center{
     text-align: center;
 }
+.borde-redondo{
+    border-radius: 50%;
+}
 .test1{
     background-color: red;
 }
@@ -74,9 +77,7 @@ section nav a:hover{
 .test4{
     background-color: aquamarine;
 }
-.flex-reverse{
-    flex-direction: row;
-}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -85,7 +86,12 @@ section nav a:hover{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .col-6.col-4{
+        width: 50%;
+    }
+    .flex-reverse{
+        flex-direction: row-reverse;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
