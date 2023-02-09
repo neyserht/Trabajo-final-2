@@ -15,6 +15,8 @@ img{
 footer{
     display: block;
     text-align: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .flex{
@@ -30,16 +32,18 @@ footer{
 section nav{
     background-color: burlywood;
 }
-section nav a{
+section nav ul li{
+    margin: 0 10px;
+}
+section nav ul li a{
     display: block;
-    width: 90%;
     margin: 10px auto;
     background-color: brown;
     color: white;
     text-transform: uppercase;
     padding: 10px;
 }
-section nav a:hover{
+section nav ul li a:hover{
     background-color: white;
     color: brown;
 }
@@ -65,6 +69,16 @@ section nav a:hover{
 .borde-redondo{
     border-radius: 50%;
 }
+.digitech{
+    background-color: gray;
+    color: white;
+}
+.logo, .rrss{
+    width: 100%;
+}
+
+
+
 .test1{
     background-color: red;
 }
@@ -92,12 +106,41 @@ section nav a:hover{
     .flex-reverse{
         flex-direction: row-reverse;
     }
+    
+    section nav ul li {
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .col-3{
         width: 50%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    footer .col-3
+    {
+        width: 25%;
+    }
+    footer{
+        justify-content: space-between;
+    }
+    .section-menu{
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    .logo{
+        width: 33.33%;
+    }
+    .rrss{
+        width: 25%;
     }
 
 }
@@ -116,6 +159,18 @@ section nav a:hover{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    .rrss a{
+        display: block;
+    }
+    .rrss{
+        position: fixed;
+        top: 182px;
+        right: 0px;
+        text-align: right;
+        padding: 10px;
+    }
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */

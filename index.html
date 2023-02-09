@@ -11,11 +11,11 @@
 <body>
     
     <!-- footer -->
-    <footer>
-        <div>
+    <footer class="flex flex-wrap">
+        <div class="logo">
             <img src="images/200x100.png" alt="">
         </div>
-        <div>
+        <div class="rrss">
             <a href="#"><img src="images/facebook.png" alt=""></a>
             <a href="#"><img src="images/instagram.png" alt=""></a>
             <a href="#"><img src="images/linkedin.png" alt=""></a>
@@ -23,14 +23,16 @@
     </footer>
     
     <!-- Menus -->
-    <section>
+    <section class="align-center section-menu">
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Servicios</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Contacto</a>
-        </nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+         </nav>
     </section>
     
     <!-- Imagen Principal -->
@@ -46,25 +48,25 @@
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, neque aperiam tempora exercitationem iure fugiat minus.</h3>
         </div>
 
-        <div class="col-3 test1 align-center">
+        <div class="col-3 align-center">
             <div class="col-12"><img src="images/600x400-1.jpg" alt=""></div>
             <div class="col-12"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eaque aperiam voluptate labore necessitatibus debitis sequi delectus fugiat cupiditate, harum nisi doloribus dolores? Impedit molestias illum magnam ab, eveniet assumenda?</p></div>
             <div class="boton"><a href="#">Comprar</a></div>
         </div>
 
-        <div class="col-3 test2 align-center">
+        <div class="col-3 align-center">
             <div class="col-12"><img src="images/600x400-2.jpg" alt=""></div>
             <div class="col-12"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eaque aperiam voluptate labore necessitatibus debitis sequi delectus fugiat cupiditate, harum nisi doloribus dolores? Impedit molestias illum magnam ab, eveniet assumenda?</p></div>
             <div class="boton"><a href="#">Comprar</a></div>
         </div>
 
-        <div class="col-3 test3 align-center">
+        <div class="col-3 align-center">
             <div class="col-12"><img src="images/600x400-3.jpg" alt=""></div>
             <div class="col-12"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eaque aperiam voluptate labore necessitatibus debitis sequi delectus fugiat cupiditate, harum nisi doloribus dolores? Impedit molestias illum magnam ab, eveniet assumenda?</p></div>
             <div class="boton"><a href="#">Comprar</a></div>
         </div>
 
-        <div class="col-3 test4 align-center">
+        <div class="col-3 align-center">
             <div class="col-12"><img src="images/600x400-4.jpg" alt=""></div>
             <div class="col-12"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eaque aperiam voluptate labore necessitatibus debitis sequi delectus fugiat cupiditate, harum nisi doloribus dolores? Impedit molestias illum magnam ab, eveniet assumenda?</p></div>
             <div class="boton"><a href="#">Comprar</a></div>
@@ -95,6 +97,7 @@
         <div class="col-12">
             <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum minima natus deserunt omnis doloremque enim nulla quia.</h3>
         </div>
+
         <div class="col-4">
             <div class="col-12 borde-redondo">
                 <img class="borde-redondo" src="images/500x500.png" alt="">
@@ -103,6 +106,7 @@
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
             </div>
         </div>
+
         <div class="col-4">
             <div class="col-12 borde-redondo">
                 <img class="borde-redondo" src="images/500x500.png" alt="">
@@ -111,30 +115,7 @@
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
             </div>
         </div>
-        <div class="col-4">
-            <div class="col-12 borde-redondo">
-                <img class="borde-redondo" src="images/500x500.png" alt="">
-            </div>
-            <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="col-12 borde-redondo">
-                <img class="borde-redondo" src="images/500x500.png" alt="">
-            </div>
-            <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="col-12 borde-redondo">
-                <img class="borde-redondo" src="images/500x500.png" alt="">
-            </div>
-            <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            </div>
-        </div>
+
         <div class="col-4">
             <div class="col-12 borde-redondo">
                 <img class="borde-redondo" src="images/500x500.png" alt="">
@@ -145,9 +126,22 @@
         </div>
 
         
-    </section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, culpa, quis, perspiciatis impedit laudantium atque quasi est nihil libero dolor maxime autem quidem. Beatae veniam, similique unde voluptatum odit in.</p>
-    <p>Parafo 2 -Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eligendi harum inventore dolorem, vitae iure sapiente pariatur molestiae possimus illo distinctio hic eaque, cupiditate neque alias quam iusto consequuntur aut!</p>
+    <footer class="flex flex-wrap col-12">
+        <div class="col-3">
+            <img src="images/200x100.png" alt="">
+        </div>
+        <div class="col-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ratione, qui iusto maxime aliquid nostrum. Omnis libero adipisci excepturi neque harum ipsum nobis, asperiores dolor incidunt quod fugit soluta modi?</p>
+        </div>
+        <div class="col-3">
+            <a href="#"><img src="images/facebook.png" alt=""></a>
+            <a href="#"><img src="images/instagram.png" alt=""></a>
+            <a href="#"><img src="images/linkedin.png" alt=""></a>
+        </div>
+        <div class=" col-12 digitech">
+            <h2>DITITECH 2023</h2>
+        </div>
+    </footer>
 
 
     
