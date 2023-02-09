@@ -103,10 +103,6 @@ section nav ul li a:hover{
     .col-6.col-4{
         width: 50%;
     }
-    .flex-reverse{
-        flex-direction: row-reverse;
-    }
-    
     section nav ul li {
         display: inline-block;
         text-align: center;
@@ -130,6 +126,9 @@ section nav ul li a:hover{
     }
     footer{
         justify-content: space-between;
+    }
+    .flex-reverse{
+        flex-direction: row-reverse;
     }
     .section-menu{
         position: sticky;
