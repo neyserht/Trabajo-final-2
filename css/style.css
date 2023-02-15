@@ -30,7 +30,7 @@ footer{
     margin: 20px auto;
 }
 section nav{
-    background-color: burlywood;
+    background-color: #5C6584;
 }
 section nav ul li{
     margin: 0 10px;
@@ -38,14 +38,14 @@ section nav ul li{
 section nav ul li a{
     display: block;
     margin: 10px auto;
-    background-color: brown;
+    background-color: #09080C;
     color: white;
     text-transform: uppercase;
     padding: 10px;
 }
 section nav ul li a:hover{
     background-color: white;
-    color: brown;
+    color: #09080C;
 }
 .col-3,.col-12,.col-6,.col-4{
     width: 100%;
@@ -78,7 +78,6 @@ section nav ul li a:hover{
 }
 
 
-
 .test1{
     background-color: red;
 }
@@ -100,12 +99,14 @@ section nav ul li a:hover{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .col-6.col-4{
-        width: 50%;
-    }
+    
     section nav ul li {
         display: inline-block;
         text-align: center;
+    }
+    .seccion1-nosotros{
+        width: 80%;
+        margin: 15px auto;
     }
 }
 
