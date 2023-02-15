@@ -76,6 +76,10 @@ section nav ul li a:hover{
 .logo, .rrss{
     width: 100%;
 }
+.imagen-servicios{
+    background-image: url(../images/kali_1920x1080.jpg);
+    background-repeat: no-repeat;
+}
 
 
 .test1{
