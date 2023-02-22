@@ -80,6 +80,27 @@ section nav ul li a:hover{
     background-image: url(../images/kali_1920x1080.jpg);
 }
 
+/* Seccions Inicio */
+.seccion-1-inicio{ width: 100%;}
+.seccion-2-inicio{ width: 100%;}
+.seccion-3-inicio{ width: 100%;}
+.seccion-4-inicio{ width: 100%;}
+
+/* Seccions Nosotros */
+.seccion-1-nosotros{ width: 100%;}
+.seccion-2-nosotros{ width: 100%;}
+.seccion-3-nosotros{ width: 100%;}
+
+/* Seccions Servicios */
+.seccion-1-servicios{ width: 100%;}
+.seccion-2-servicios{ width: 100%;}
+.seccion-3-servicios{ width: 100%;}
+
+/* Seccions Contacto */
+.seccion-1-contacto{ width: 100%;}
+.seccion-2-contacto{ width: 100%;}
+.seccion-3-contacto{ width: 100%;}
+
 
 .test1{
     background-color: red;
@@ -143,7 +164,10 @@ section nav ul li a:hover{
         width: 33.33%;
     }
     .rrss{
-        width: 25%;
+        width: 33.33%;
+    }
+    header{
+        justify-content: space-between;
     }
 
 }
