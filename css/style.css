@@ -97,11 +97,15 @@ section nav ul li a:hover{
     display: none;
 }
 
-
+form{
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+}
 form input,textarea{
     width: 100%;
     padding: 5px;
-    margin: 5px auto;
+    margin: 5px ;
 }
 
 
@@ -129,6 +133,8 @@ form input,textarea{
 
 .test1{
     background-color: red;
+    width: 100%;
+    height: 500px;
 }
 .test2{
     background-color: blue;
@@ -172,7 +178,7 @@ form input,textarea{
     .col-6{
         width: 50%;
     }
-    .seccion-2-nosotros .col-6{
+    .seccion-2-nosotros, .seccion-2-contacto .col-6{
         width: 100%;
     }
 
@@ -229,8 +235,11 @@ form input,textarea{
         text-align: right;
         padding: 10px;
     }
-    .seccion-2-nosotros .col-6{
+    .seccion-2-nosotros, .seccion-2-contacto .col-6{
         width: 50%;
+    }
+    .seccion-2-contacto div form {
+        text-align: left;
     }
 
 }
