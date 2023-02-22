@@ -71,6 +71,9 @@ section nav ul li a:hover{
 .align-center{
     text-align: center;
 }
+.align-vertical{
+    align-items: center; 
+}
 .borde-redondo{
     border-radius: 50%;
 }
@@ -133,9 +136,7 @@ section nav ul li a:hover{
         display: inline-block;
         text-align: center;
     }
-    .col-3{
-        width: 50%;
-    }
+   
     .seccion1-nosotros{
         width: 80%;
         margin: 15px auto;
@@ -151,6 +152,10 @@ section nav ul li a:hover{
     .col-6{
         width: 50%;
     }
+    .seccion-2-nosotros .col-6{
+        width: 100%;
+    }
+
     footer .col-3
     {
         width: 25%;
@@ -202,6 +207,9 @@ section nav ul li a:hover{
         right: 0px;
         text-align: right;
         padding: 10px;
+    }
+    .seccion-2-nosotros .col-6{
+        width: 50%;
     }
 
 }
