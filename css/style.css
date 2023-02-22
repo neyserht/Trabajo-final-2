@@ -86,6 +86,15 @@ section nav ul li a:hover{
 }
 .imagen-servicios{
     background-image: url(../images/kali_1920x1080.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.imagen-servicios p{
+    display: none;
 }
 
 /* Seccions Inicio */
@@ -140,6 +149,9 @@ section nav ul li a:hover{
     .seccion1-nosotros{
         width: 80%;
         margin: 15px auto;
+    }
+    .imagen-servicios p{
+        display: initial;
     }
 }
 
