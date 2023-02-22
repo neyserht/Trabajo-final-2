@@ -18,6 +18,11 @@ header{
     align-items: center;
     padding: 10px;
 }
+footer{
+    
+    text-align: center;
+    align-items: center;
+}
 
 .flex{
     display: flex;
@@ -128,6 +133,9 @@ section nav ul li a:hover{
         display: inline-block;
         text-align: center;
     }
+    .col-3{
+        width: 50%;
+    }
     .seccion1-nosotros{
         width: 80%;
         margin: 15px auto;
@@ -136,9 +144,7 @@ section nav ul li a:hover{
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .col-3{
-        width: 50%;
-    }
+    
     .col-4{
         width: 33.33%;
     }
