@@ -23,6 +23,9 @@ footer{
     text-align: center;
     align-items: center;
 }
+section{
+    margin: 20px auto;
+}
 
 .flex{
     display: flex;
@@ -70,6 +73,7 @@ section nav ul li a:hover{
 }
 .align-center{
     text-align: center;
+    margin: auto;
 }
 .align-vertical{
     align-items: center; 
@@ -98,7 +102,7 @@ section nav ul li a:hover{
 }
 
 
-form input,textarea{
+form input,form textarea{
     width: 100%;
     padding: 5px;
     margin: 5px auto;
@@ -107,9 +111,17 @@ form input,textarea{
 
 /* Seccions Inicio */
 .seccion-1-inicio{ width: 100%;}
-.seccion-2-inicio{ width: 100%;}
+.seccion-2-inicio{ width: 80%;}
 .seccion-3-inicio{ width: 100%;}
-.seccion-4-inicio{ width: 100%;}
+.seccion-4-inicio{width: 100%;}
+.seccion-4-inicio>.col-4>h2, .seccion-4-inicio>.col-4>img {
+    width: 70%;
+    margin: auto;
+}
+.seccion-3-nosotros>.col-4>.col-12>h2, .seccion-3-nosotros>.col-4>.col-12>img {
+    width: 70%;
+    margin: auto;
+}
 
 /* Seccions Nosotros */
 .seccion-1-nosotros{ width: 100%;}
@@ -161,6 +173,7 @@ form input,textarea{
     .imagen-servicios p{
         display: initial;
     }
+    .seccion-2-inicio{ width: 90%;}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -200,6 +213,7 @@ form input,textarea{
     header{
         justify-content: space-between;
     }
+    .seccion-2-inicio{ width: 60%;}
 
    
 }
@@ -232,6 +246,7 @@ form input,textarea{
     .seccion-2-nosotros .col-6{
         width: 50%;
     }
+    .seccion-2-inicio{ width: 90%;}
 
 }
 
