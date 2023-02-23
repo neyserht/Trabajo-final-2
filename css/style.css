@@ -101,15 +101,11 @@ section nav ul li a:hover{
     display: none;
 }
 
-form{
-    margin: 10px auto;
-    text-align: center;
-    width: 80%;
-}
+
 form input,form textarea{
     width: 100%;
     padding: 5px;
-    margin: 5px ;
+    margin: 5px auto;
 }
 
 
@@ -145,9 +141,6 @@ form input,form textarea{
 
 .test1{
     background-color: red;
-    width: 100%;
-
-    height: 500px;
 }
 .test2{
     background-color: blue;
@@ -192,7 +185,7 @@ form input,form textarea{
     .col-6{
         width: 50%;
     }
-    .seccion-2-nosotros, .seccion-2-contacto .col-6{
+    .seccion-2-nosotros .col-6{
         width: 100%;
     }
 
@@ -250,9 +243,10 @@ form input,form textarea{
         text-align: right;
         padding: 10px;
     }
-    .seccion-2-nosotros, .seccion-2-contacto .col-6{
+    .seccion-2-nosotros .col-6{
         width: 50%;
     }
+    .seccion-2-inicio{ width: 90%;}
 
 }
 
